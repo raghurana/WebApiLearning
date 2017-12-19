@@ -1,16 +1,24 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using Ninject.Web.Common.WebHost;
 using System.Web.Http;
-using System.Web.Routing;
+using Ninject;
 
 namespace WebApi.Classic
 {
-    public class WebApiApplication : System.Web.HttpApplication
+    public class WebApiApplication : NinjectHttpApplication
     {
-        protected void Application_Start()
+        protected override IKernel CreateKernel()
         {
+            var kernel = new StandardKernel();
+
+            DependencyMap.Init(kernel);
+
+            return kernel;
+        }
+
+        protected override void OnApplicationStarted()
+        {
+            base.OnApplicationStarted();
+
             GlobalConfiguration.Configure(WebApiConfig.Register);
         }
     }
