@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Api.Classic", "Api.Classic\Api.Classic.csproj", "{FB6B13A2-E2E9-4998-BAF9-EC6EB05DA23F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.Classic", "WebApi.Classic\WebApi.Classic.csproj", "{DA164CC3-6162-484F-B6F8-46D25E4427EB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,12 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FB6B13A2-E2E9-4998-BAF9-EC6EB05DA23F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FB6B13A2-E2E9-4998-BAF9-EC6EB05DA23F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FB6B13A2-E2E9-4998-BAF9-EC6EB05DA23F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FB6B13A2-E2E9-4998-BAF9-EC6EB05DA23F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA164CC3-6162-484F-B6F8-46D25E4427EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA164CC3-6162-484F-B6F8-46D25E4427EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA164CC3-6162-484F-B6F8-46D25E4427EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA164CC3-6162-484F-B6F8-46D25E4427EB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {409F597D-C79B-4EE3-89F1-CA87A65B4948}
 	EndGlobalSection
 EndGlobal

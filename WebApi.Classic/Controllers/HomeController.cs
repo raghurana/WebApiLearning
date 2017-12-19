@@ -1,12 +1,12 @@
 ﻿using System.Web.Http;
 
-namespace Api.Classic.v2
+namespace WebApi.Classic.Controllers
 {
     public class HomeController : ApiController
     {
-        public IHttpActionResult Get()
+        public string Get()
         {
-            return Ok("v2 with same name");
+            return "Hello World";
         }
     }
 }
